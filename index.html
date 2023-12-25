@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <!---->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--normalize sheet-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css -->
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!--title of page-->
+  <title>SignUp</title>
+  <link rel="icon"  type="image/x-icon" href="image/new.png">
+
+
+
+</head>
+<body>
+    <!--start login-->
+    <section class="all vh-100 gradient-custom">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center algn-items-centeri h-100">
+            <div class="col">
+              <div class="card " style="border-radius: 1rem;">
+                <div class="card-body p-5 pb-0 ">
+      
+                  <div class="mb-md-5 mt-md-4 ">
+                    <div class="card-title text-center">
+                      <small>Sign Up</small>
+                      <h2 class="fw-bold mb-2 ">Student<span>Hub</span></h2>
+        
+                    </div>
+                 
+                    <!-- Name input -->
+                    <div class="form-outline form-white mb-4">
+                      <label class="form-label" for="typeName">Full Name</label>
+                      <div class="input-container">
+                        <i class="fa-regular fa-user icon"></i>
+                        <input type="text" id="typeName" class="form-control input-field form-control-lg" placeholder="Enter Your Name" />  
+                      </div>
+                    <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    
+      
+                    <!-- select level & department -->
+                    <div class="form-outline form-white mb-4 row">
+                      <div class="col">
+                        <label for="typeSelect1">Level</label>
+                        <select id="typeSelect1" class="form-select " aria-label="Default select example">
+                          <option selected>Enter Your Level</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                          <option value="4">Four</option>
+                        </select>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please select your level.</div>
+                      </div>
+                      <div class="col">
+                        <label for="typeSelect2">Department</label>
+                        <select id="typeSelect2" class="form-select" aria-label="Default select example">
+                          <option selected>Enter Your Department</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                          <option value="4">Four</option>
+                        </select>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please select your department.</div>
+                      </div>
+
+                    </div>
+
+                    <!-- ID input -->
+                    <div class="form-outline form-white mb-4">
+                      <label class="form-label" for="typeID">ID</label>
+                      <div class="input-container">
+                        <i class="fa-regular fa-id-badge icon"></i>
+                        <input type="tel" id="typeID" name="phone" class="form-control input-field form-control-lg" placeholder="Enter Your ID" maxlength="14"/>
+                      </div>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Please enter your ID.</div>
+                    </div>
+    
+                    <!-- phone input -->
+                    <div class="form-outline form-white mb-4">
+                      <label class="form-label" for="typePhone">Phone Number</label>
+                      <div class="input-container">
+                        <i class="fa-solid fa-phone icon"></i>
+                        <input type="tel" id="typePhone" name="phone" class="form-control input-field form-control-lg" placeholder="Enter Your Phone" maxlength="11"/>
+                      </div>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Please enter your phone.</div>
+                    </div>
+      
+                    <!-- password input -->
+                    <div class="form-outline form-white mb-2">
+                      <label class="form-label" for="typePasswordX">Password</label>
+                      <div class="input-container">
+                        <i class="fa-regular fa-eye icon"></i>
+                        <input type="password" id="typePasswordX" class="form-control input-field form-control-lg" placeholder="Enter Your Password" />
+                      </div>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Please enter your password.</div>
+                    </div>
+      
+
+                    <!-- roles checkbox -->
+                    <div class="form-check ">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">I Agree to the Terms & Privacy</label>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Please check.</div>
+                    </div>
+
+                    <!--sign up button  -->
+                    <button class="btn col-12 mb-5 mt-5 btn-lg " type="submit">Login</button>
+      
+                 
+                    <!-- signin link  -->
+                    <div >
+                      <p class="m-2 pb-3 text-center">Already have an account?<a href="login.html" class=" fw-bold">Sign in now</a>
+                      </p>
+                    </div>
+                  </div>
+
+                  
+
+
+
+                  
+
+                </div>
+              </div>                    
+            </div>
+            <div class="col text-white text-center fw-bold ">
+              <h1>Hello! Sign Up to Get Started</h1>
+            </div>
+          </div>
+        </div>
+    </section>
+
+  
+    <!--end login-->
+
+
+
+    <script src="js/cdnjs.cloudflare.com_ajax_libs_popper.js_1.11.0_umd_popper.min.js"></script>
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
